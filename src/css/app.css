@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+header{
+    background-color: steelblue;
+    padding: .2rem;
+    color: whitesmoke;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-left: 0.2rem;
+    cursor: pointer;
+}
+
+nav li{
+    padding-right: 1rem;
+}
+main {
+  min-width: 400px;
+  width: 500px;
+  margin: 2rem auto;
+}
+
+.winner{
+    height: 3rem;
+}
+
+.winner h2{
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.score-board fieldset {
+  border: 2px solid slateblue;
+  margin-bottom: 3rem;
+}
+.score-board legend {
+  width: 30%;
+  padding: 0 0.5rem;
+  margin-left: calc(50% - 60px);
+  font-size: 20px;
+}
+
+.score-board h4 {
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.gameplay {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gameplay div {
+  height: 30vh;
+}
+
+.controller img,
+.user-box img {
+  transform: scaleX(-1);
+}
+
+.controller {
+  display: flex;
+  justify-content: space-around;
+}
+
+.restart{
+  display: flex;
+  justify-content: center;
+}
+.restart button{
+  margin-top: 3rem;
+  width: 150px;
+  padding: .5rem;
+  background-color: steelblue;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  outline: none;
+  border: 1px solid steelblue;
+}
+
+.restart button:hover{
+  border: 1px solid black;
+  opacity: 0.9;
+}

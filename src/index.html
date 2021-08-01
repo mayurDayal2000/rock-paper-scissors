@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="css/app.css"/>
+    <script src="js/app.js" defer></script>
+    <title>Rock Paper Scissor Game - created by mayur</title>
+</head>
+
+<body>
+    <main>
+        <section class="winner">
+            <!--display winner-->
+            <h2></h2>
+        </section>
+
+        <section class="score-board">
+            <fieldset>
+                <legend>Score Board</legend>
+                <h4>
+                    Computer: <span class="computer-score">0</span> vs Player:
+                    <span class="user-score">0</span>
+                </h4>
+            </fieldset>
+        </section>
+
+        <section class="gameplay">
+            <div class="computer-box animate">
+                <img src="img/rock.jpg" alt="" />
+            </div>
+            <div class="user-box animate">
+                <img src="img/rock.jpg" alt="" />
+            </div>
+        </section>
+
+        <section class="controller">
+            <button class="rock">
+                <img src="img/rock.jpg" alt="" width="100" height="80" />
+            </button>
+            <button class="paper">
+                <img src="img/paper.jpg" alt="" width="100" height="80" />
+            </button>
+            <button class="scissors">
+                <img src="img/scissors.jpg" alt="" width="100" height="80" />
+            </button>
+        </section>
+
+        <section class="restart">
+            <button title="restart the game">Restart</button>
+        </section>
+    </main>
+</body>
+
+</html>
