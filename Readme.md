@@ -20,6 +20,8 @@ index and middle finger extended forming a V shape).</p>
 The application will open automatically after successfull installation</p>
 <p>Enjoy the game</p>
 
+<img src="video.gif">
+
 <h2>Manual</h2>
 <p>The left hand sign is controlled by the computer and the right hand sign is controlled by the user.
 Choose the button below for the desired hand sign. After comparison, the winner will be rendered on the screen. The points regarding the game will also be displayed in the scoreboard section.</p>
